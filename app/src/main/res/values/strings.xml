@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Retreat Walk</string>
+    <string name="channel_session">Bell session</string>
+    <string name="channel_session_desc">Shows the running session and its Stop button.</string>
+    <string name="notif_title">Bell every %1$d min</string>
+    <string name="notif_first">First bell at %1$s — tap Stop to end</string>
+    <string name="notif_next">%1$d rung · next at %2$s — tap Stop to end</string>
+    <string name="stop">Stop</string>
+    <string name="ic_launcher_background">#F7F3EA</string>
+</resources>
