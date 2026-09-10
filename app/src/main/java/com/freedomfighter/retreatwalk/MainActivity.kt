@@ -16,6 +16,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.input.KeyboardType
@@ -195,6 +196,14 @@ private fun WalkApp() {
                     textAlign = TextAlign.Center,
                 )
             }
+
+            Spacer(Modifier.weight(1f))
+            Text(
+                stringResource(R.string.credits),
+                fontSize = 11.sp, color = Ink.copy(alpha = 0.4f),
+                textAlign = TextAlign.Center,
+                modifier = Modifier.padding(bottom = 16.dp),
+            )
         }
     }
 }

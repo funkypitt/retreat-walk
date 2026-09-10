@@ -1,0 +1,17 @@
+Retreat Walk fait sonner un bol chantant à intervalle fixe — toutes les 10 minutes, par exemple — encore et encore jusqu'à ce que vous l'arrêtiez. Pour changer de partenaire dans un exercice à deux, ou pour une assise avec un rappel régulier à rester éveillé.
+
+Un nombre, un bouton. C'est toute l'application. Réglez les minutes entre les cloches et appuyez sur Démarrer. La cloche sonne après ce nombre de minutes, puis au double, puis au triple, et ainsi de suite. Appuyez sur Arrêter — dans l'application ou sur la notification — et c'est fini.
+
+Chaque cloche est calée sur le début de la session et non sur la cloche précédente, si bien qu'au bout d'une heure les cloches n'ont pas dérivé.
+
+Pourquoi elle sonne à l'heure :
+- Chaque cloche est armée avec le mécanisme d'alarme exacte qu'utilise l'application Horloge du système : elle sonne à l'heure même en mode Doze, écran verrouillé.
+- La session tourne dans un service au premier plan tenant un wake lock pendant que le bol résonne.
+- La notification est silencieuse et porte un bouton Arrêter, utilisable depuis l'écran de verrouillage.
+- Une session ne survit pas à un redémarrage : l'application se montre arrêtée plutôt qu'avec un compte à rebours qui n'atteindrait jamais zéro.
+
+La cloche est une frappe du bol Satipanya, au volume harmonisé à −20 LUFS.
+
+Sans publicité, sans pistage, sans compte, sans aucune permission réseau.
+
+Pierre Gallaz · développé avec Claude Code

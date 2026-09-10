@@ -46,3 +46,11 @@ sitting, not the signal that opens or closes one.
 No ads, no tracking, no accounts, no network permission at all. Permissions are
 limited to exact alarms, wake lock, foreground-service playback, and posting the
 notification that carries Stop.
+
+## Crédits / Credits
+
+© 2026 Pierre Gallaz. Développé avec [Claude Code](https://claude.com/claude-code) (Anthropic).
+Licence MIT, voir `LICENSE`.
+
+© 2026 Pierre Gallaz. Developed with [Claude Code](https://claude.com/claude-code) (Anthropic).
+MIT licence, see `LICENSE`.
